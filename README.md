@@ -32,8 +32,6 @@ o switch.
 
 Lista 07 - While
 
-1. Crie os códigos no SharpDevelop:
-
 a) Crie um programa que solicite ao usuário para inserir um número inteiro
 positivo e, em seguida, exiba todos os números pares entre 0 e o número
 inserido.
