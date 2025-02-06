@@ -1,0 +1,16 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			DateTime dataAtual = DateTime.Now;
+			Console.WriteLine("A data de hoje é: "+ dataAtual);
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
