@@ -1,0 +1,19 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			DateTime data1 = new DateTime(2025,02,06);
+			DateTime data2 = new DateTime(2025,08,02);
+			TimeSpan diferenca = data2 - data1;
+			
+			Console.WriteLine("Faltam " + diferenca.TotalDays + " dias para o meu aniversário");
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
