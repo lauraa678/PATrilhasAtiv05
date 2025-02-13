@@ -1,0 +1,20 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Digite sua data de nascimento: (DD-MM-AAAA)");
+			DateTime nascimento = DateTime.Parse(Console.ReadLine());
+			
+			int idade = DateTime.Now.Year - nascimento.Year;
+				
+			Console.WriteLine("Sua idade é: "+ idade);
+			
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
