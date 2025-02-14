@@ -1,0 +1,32 @@
+using System;
+
+namespace Exercício
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.Write("Escolha uma cor (vermelho, azul ou verde): ");
+			string cor = Console.ReadLine().ToLower();
+			
+			switch(cor){
+				case"vermelho":
+					Console.WriteLine("Você escolheu vermelho.");
+					break;
+				case"azul":
+					Console.WriteLine("Você escolheu azul.");
+					break;
+				case"verde":
+					Console.WriteLine("Você escolheu verde.");
+					break;
+				default:
+					Console.WriteLine("Cor inválida.");
+					break;
+			}
+			
+			Console.WriteLine(" ");
+			Console.Write("Press any key to continue . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
