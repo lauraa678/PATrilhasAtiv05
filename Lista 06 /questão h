@@ -1,0 +1,39 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Escreva uma letra do alfabeto: ");
+			char alfabeto = Console.ReadKey().KeyChar;
+			
+			switch(char.ToLower(alfabeto)){
+				case 'a':
+					Console.WriteLine(" Essa letra é uma vogal");
+					break;
+				case 'e':
+					Console.WriteLine(" Essa letra é uma vogal");
+					break;
+				case 'i':
+					Console.WriteLine(" Essa letra é uma vogal");
+					break;
+				case 'o': 
+					Console.WriteLine(" Essa letra é uma vogal");
+					break;
+				case 'u':
+					Console.WriteLine(" Essa letra é uma vogal");
+					break;
+				default:
+					Console.WriteLine(" Essa letra é uma consoante");
+					break;
+			}
+					                  
+			
+			Console.WriteLine(" ");
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
