@@ -1,0 +1,33 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Qual o tamanho de camiseta você usa: ");
+			char roupa = Console.ReadKey().KeyChar;
+			
+			switch(char.ToLower(roupa)){
+				case 'p':
+					Console.WriteLine(" A camisa P custa: R$9,99");
+					break;
+				case 'm':
+					Console.WriteLine(" A camisa M custa: R$11,99");
+					break;
+				case 'g':
+					Console.WriteLine(" A camisa G custa: R$13,99");
+					break;
+				default:
+					Console.WriteLine(" Não á esse tamanho de camiseta.");
+					break;
+			}
+					                  
+			
+			Console.WriteLine(" ");
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
