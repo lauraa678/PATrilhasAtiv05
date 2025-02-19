@@ -1,0 +1,24 @@
+using System;
+
+namespace Exercicíos
+{
+	class Program
+	{
+		public static void Main()
+		{
+			Console.WriteLine("Digite um número qualquer: ");
+			int num = int.Parse(Console.ReadLine());
+			
+			int i = 1;
+			
+			while (i <= 10){
+				Console.Write(" "+ num +"x"+ i +"="+ num * i);
+				i ++ ;
+			}
+			
+			Console.WriteLine(" ");
+			Console.Write("Pressione uma tecla qualquer . . . ");
+			Console.ReadKey(true);
+		}
+	}
+}
